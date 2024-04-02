@@ -1,0 +1,8 @@
+# Ignorar carpetas __pycache__ y archivos .pyc
+__pycache__/
+*.pyc
+.vscode
+
+# Ignorar todo dentro de la carpeta generated (donde se generan las imágenes de cada iteración.)
+generated/*
+!generated/.gitkeep
